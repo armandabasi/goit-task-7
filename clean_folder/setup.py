@@ -9,6 +9,6 @@ setup(name="clean",
       author_email="514ftg@gmail.com",
       packages=find_namespace_packages(),
       entry_points = {
-            "console_scripts": ['clean-folder=clean_folder.clean:main']
+            "console_scripts": ['clean-folder=clean_folder.clean:sort']
       }
       )
