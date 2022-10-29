@@ -67,7 +67,7 @@ def unpack(FOLDERS): # функція розпакує архіви, якщо в
         print('There are no archives in the folder')
 
 
-def sort():
+def clean():
     try:
         if sys.argv[1]:
             FOLDERS = Path(sys.argv[1])
@@ -78,4 +78,4 @@ def sort():
         print('You did not specify a folder' )
 
 if __name__ == '__main__':
-    sort()
+    clean()
